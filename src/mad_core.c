@@ -167,6 +167,7 @@ madx_start(void)
   printf("\n  ++++++++++++++++++++++++++++++++++++++++++++\n");
   printf("  +     MAD-X %s  (%s bit, %s) %s    +\n", version_name, version_arch, version_ostype, pad[pad_idx]);
   printf("  + Support: mad@cern.ch, http://cern.ch/mad +\n");
+  printf("  + Special version from Guillaume!          +\n");
   printf("  + Release   date: %s               +\n", version_date);
   printf("  + Execution date: %04d.%02d.%02d %02d:%02d:%02d      +\n",
          tm->tm_year+1900, tm->tm_mon+1, tm->tm_mday,
